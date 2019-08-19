@@ -156,6 +156,9 @@ h3 {
 
 /* Mobile Responsiveness for phones */
 @media screen and (max-width: 560px) {
+  html, body {
+    overflow-x: hidden;
+  }
   .left-bar {
     background: url(../images/bg-intro.svg) no-repeat;
     background-size: contain;
